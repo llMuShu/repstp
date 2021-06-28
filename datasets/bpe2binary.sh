@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export ROBERTA_LARGE=$PWD/roberta.large
+
 FOLDERNAME=$1
 
 fairseq-preprocess \
